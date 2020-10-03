@@ -72,3 +72,7 @@ h1 {
   font-size: 40px;
   width: 600px;
 }
+
+img {
+  width: 100%;
+}
