@@ -13,6 +13,8 @@ header {
   height: 45px;
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
+  top: 0;
+  position: sticky;
 }
 
 .nav-container {
