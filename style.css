@@ -95,3 +95,23 @@ figcaption a {
   text-decoration: none;
   font-size: 14px;
 }
+
+.sub-main {
+  max-width: 550px;
+  position: absolute;
+  left: 30%;
+  margin-top: 20px;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+article p {
+  font-size: 22px;
+  /* letter-spacing: 1px; */
+  line-height: 1.5625rem;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
