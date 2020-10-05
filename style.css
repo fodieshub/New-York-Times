@@ -126,15 +126,16 @@ figcaption a {
 }
 
 article p {
-  font-size: 22px;
+  font-size: 20px;
   color: #333;
   line-height: 2rem;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  padding-bottom: 15px;
 }
 
 article a {
-  text-decoration: none;
-  color: #000;
+  /* text-decoration: none; */
+  /* color: #000; */
 }
 
 h4 {
