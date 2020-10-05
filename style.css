@@ -140,8 +140,8 @@ article a {
   width: 200px;
   text-align: center;
   font-size: 17px;
-  position: absolute;
-  left: 43%;
+  position: relative;
+  left: 30%;
   margin-bottom: 20px;
   font-weight: 700;
 }
@@ -150,13 +150,8 @@ article a {
   text-decoration: none;
 }
 
-h4 {
-  margin-bottom: 30px;
-}
-
 .unlock hr {
   width: 80px;
   margin: 15px auto;
-  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
   color: #eee;
 }
