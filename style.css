@@ -98,9 +98,7 @@ figcaption a {
 
 .sub-main {
   max-width: 620px;
-  position: absolute;
-  left: 27%;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .article-header {
@@ -126,7 +124,7 @@ figcaption a {
 }
 
 article p {
-  font-size: 20px;
+  font-size: 21px;
   color: #333;
   line-height: 2rem;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -135,9 +133,30 @@ article p {
 
 article a {
   /* text-decoration: none; */
-  /* color: #000; */
+  color: #326891;
+}
+
+.unlock {
+  width: 200px;
+  text-align: center;
+  font-size: 17px;
+  position: absolute;
+  left: 43%;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.unlock a {
+  text-decoration: none;
 }
 
 h4 {
   margin-bottom: 30px;
+}
+
+.unlock hr {
+  width: 80px;
+  margin: 15px auto;
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+  color: #eee;
 }
