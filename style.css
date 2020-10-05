@@ -64,7 +64,7 @@ i {
 }
 
 main {
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
@@ -97,21 +97,46 @@ figcaption a {
 }
 
 .sub-main {
-  max-width: 550px;
+  max-width: 620px;
   position: absolute;
-  left: 30%;
+  left: 27%;
   margin-top: 20px;
 }
 
 .article-header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.article-header p {
+  font-size: 15px;
+}
+
+.article-icon {
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px 7px;
+  margin-right: 5px;
+}
+
+.article-icon-1 {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 article p {
   font-size: 22px;
-  /* letter-spacing: 1px; */
-  line-height: 1.5625rem;
+  color: #333;
+  line-height: 2rem;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
+article a {
+  text-decoration: none;
+  color: #000;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
