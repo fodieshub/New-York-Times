@@ -155,3 +155,32 @@ article a {
   margin: 15px auto;
   color: #eee;
 }
+
+h2{
+  margin-bottom: 15px;
+}
+
+.img-section {
+  width: 100px;
+} 
+
+footer {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+footer hr {
+  background-color: #fff;
+}
+
+footer .footer-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+footer .footer-header a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 12px;
+}
