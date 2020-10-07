@@ -170,7 +170,7 @@ footer {
 }
 
 footer hr {
-  background-color: #fff;
+  color: #888;
 }
 
 footer .footer-header {
@@ -182,5 +182,54 @@ footer .footer-header {
 footer .footer-header a {
   color: #326891;
   text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+ul li {
+  padding-top: 7px;
+  font-size: 13.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.side-footer hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #888;
+}
+
+footer .side-footer .footer-icons {
+  margin-bottom: 15px;
+}
+
+footer .side-footer .footer-icons a{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+footer .side-footer .footer-icons i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-side-bottom a {
   font-size: 12px;
 }
