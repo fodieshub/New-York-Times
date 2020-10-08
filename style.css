@@ -188,6 +188,7 @@ footer .footer-header a {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -231,5 +232,20 @@ footer .side-footer .footer-icons i {
 }
 
 .footer-side-bottom a {
+  font-size: 12px;
+}
+
+.middle-hr {
+  position: relative;
+  left: 70%;
+}
+
+.footer-bottom{
+  max-width: 1100px;
+  margin: 10px auto 40px auto;
+}
+
+.footer-bottom a {
+  padding-right: 10px;
   font-size: 12px;
 }
