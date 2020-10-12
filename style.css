@@ -144,6 +144,12 @@ iframe {
   width: 600px;
   height: 319px;
 } 
+
+.iframe-caption {
+  width: 500px;
+  font-size: 15px;
+}
+
 .unlock {
   width: 200px;
   text-align: center;
