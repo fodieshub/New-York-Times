@@ -82,7 +82,7 @@ img {
 
 figcaption {
   color: rgb(68, 68, 68);
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: georgia,'times new roman',times,serif;
   text-align: left;
   width: 760px;
   margin-top: 10px;
@@ -104,7 +104,12 @@ figcaption a {
 .article-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+article h4 a {
+  color: #333;
 }
 
 .article-header p {
@@ -132,10 +137,13 @@ article p {
 }
 
 article a {
-  /* text-decoration: none; */
   color: #326891;
 }
 
+/* iframe {
+  width: 100%;
+  height: 100vh;
+} */
 .unlock {
   width: 200px;
   text-align: center;
@@ -160,17 +168,14 @@ h2{
   margin-bottom: 15px;
 }
 
-.img-section {
-  width: 100px;
-} 
-
 footer {
   margin: 20px auto;
   max-width: 1200px;
+  font-family: sans-serif;
 }
 
 footer hr {
-  color: #888;
+  color: rgb(228, 220, 220);
 }
 
 footer .footer-header {
@@ -188,17 +193,22 @@ footer .footer-header a {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  /* margin-right: 30px; */
   margin-bottom: 10px;
+}
+
+.footer-content h5 {
+  font-weight: 750;
 }
 
 ul {
   list-style: none;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 ul li {
   padding-top: 7px;
-  font-size: 13.5px;
+  font-size: 13px;
 }
 
 a {
@@ -211,10 +221,11 @@ a:hover {
   cursor: pointer;
 }
 
+
 .side-footer hr {
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #888;
+  color: rgb(245, 243, 243);
 }
 
 footer .side-footer .footer-icons {
@@ -222,8 +233,8 @@ footer .side-footer .footer-icons {
 }
 
 footer .side-footer .footer-icons a{
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 footer .side-footer .footer-icons i {
@@ -232,7 +243,7 @@ footer .side-footer .footer-icons i {
 }
 
 .footer-side-bottom a {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .middle-hr {
@@ -246,6 +257,7 @@ footer .side-footer .footer-icons i {
 }
 
 .footer-bottom a {
-  padding-right: 10px;
-  font-size: 12px;
+  padding-right: 12px;
+  font-size: 11px;
+  font-family: sans-serif;
 }
