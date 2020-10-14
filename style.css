@@ -99,6 +99,7 @@ figcaption a {
 .sub-main {
   max-width: 620px;
   margin: 20px auto;
+  /* display: flex; */
 }
 
 .article-header {
@@ -107,6 +108,10 @@ figcaption a {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+/* article {
+  width: 70%;
+} */
 
 article h4 a {
   color: #333;
@@ -139,6 +144,17 @@ article p {
 article a {
   color: #326891;
 }
+
+.img-section {
+  height: 100%;
+  width: 100%;
+}
+
+/* .bottom-image {
+  width: 100%;
+  /* height:50%; */
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+} */
 
 iframe {
   width: 600px;
@@ -175,13 +191,24 @@ article img {
 }
 
 .unlock {
-  width: 200px;
+  width: 80%;
   text-align: center;
   font-size: 17px;
   position: relative;
   left: 30%;
   margin-bottom: 20px;
   font-weight: 700;
+}
+
+.unlock-article {
+  width: 50%;
+}
+
+aside {
+  position: absolute;
+  left: 500px;
+  top: 0;
+  width: 200px;
 }
 
 .unlock a {
