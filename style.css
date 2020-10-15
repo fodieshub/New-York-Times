@@ -152,6 +152,10 @@ article a {
   width: 100%;
 }
 
+.image-content {
+  margin-bottom: 50px;
+}
+
 .bottom-image {
   height: 600px;
 }
